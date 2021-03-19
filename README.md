@@ -26,13 +26,13 @@ Dans ce projet d'apprentissage en profondeur, nous classerons les expressions fa
 L'ensemble de données reconnaissance des expressions faciales se compose d'images de visage en niveaux de gris de 48 * 48 pixels. Les images sont centrées et occupent un espace égal. 
 Cet ensemble de données comprend les émotions faciales des catégories suivantes:
 
-0: colère
-1: dégoût
-2: peur
-3: heureux
-4: neutre
-5: triste
-6: surpris
+* 0: colère
+* 1: dégoût
+* 2: peur
+* 3: heureux
+* 4: neutre
+* 5: triste
+* 6: surpris
 
 Nous allons créer un modèle d'apprentissage en profondeur pour classer les expressions faciales à partir des images. 
 Ensuite, nous mapperons l'émotion classée à un emoji ou un avatar.
@@ -45,6 +45,8 @@ Après compilation et entraînement du modèle, On obtient une accuracy de notre
 Notre modèle sera sauvegardé afin de pouvoir être utilisé sans l'interface graphique.
 
 On utilise pour celà, openCV haarcascade xml, afin de définir les boîtes englobantes du visage dans la webcam et on prédit les émotions.
+
+L'interface graphique nous permet de détecter instantanément l'émotion de la personne sur la webcam et de lui associer l'émotion et l'émoji correspondant.
 
 
 
