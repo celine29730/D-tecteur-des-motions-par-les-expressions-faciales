@@ -47,6 +47,7 @@ Notre modèle sera sauvegardé afin de pouvoir être utilisé sans l'interface g
 On utilise pour celà, openCV haarcascade xml, afin de définir les boîtes englobantes du visage dans la webcam et on prédit les émotions.
 
 L'interface graphique nous permet de détecter instantanément l'émotion de la personne sur la webcam et de lui associer l'émotion et l'émoji correspondant.
+[resultat_interface](https://github.com/celine29730/D-tecteur-des-motions-par-les-expressions-faciales/blob/main/imageinterface.png)
 
 
 
